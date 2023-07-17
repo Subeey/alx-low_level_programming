@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+/**
+ * main - this is the main function
+ *
+ * Return: alway 0 when success
+ */
+int main(void)
+{
+	int i;
+
+	for (i = 0 ; i < 10 ; i++)
+	{
+		if (i == 9)
+			putchar(i + '0');
+		else
+		{
+			putchar(i + '0');
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	return (0);
+}
